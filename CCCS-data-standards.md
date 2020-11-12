@@ -23,7 +23,7 @@ The data must be associated with documentation that describes:
 
 ### Scientific Integrity
 The data must be associated with documentation that:
-1. Provides scientific justification of methods used to develop the data.  This cannot be a self-referential statement.  It must include at a minimum:
+1. Provides scientific justification of methods used to develop the data.  It must include at a minimum:
    1. A comparison of the methods against other contemporary/similar methods and approaches
    1. An assessment of the methods against fundamental scientific theory and understanding;
    1. An objective critique of the strengths and weaknesses of the methods;
@@ -41,11 +41,11 @@ The data must be associated with documentation that:
 ### Availability and Licensing
 The data must be:
 1. Free of cost;
-1. Available for unrestricted use that meets current ClimateData/CCCS data distribution policies.  Data must be available for commercial use where commercial fees relate specifically to added value (e.g. reformatting/reorganizing/aggregation, advanced interpretation, integration into risk assessments, etc.) and not to data resale.  Licensing that meets this data standard requirement includes (but is not limited to) the Creative Commons Attribution 4.0 International Public License , and for data produced by ECCC, the License Agreement for Use of Environment and Climate Change Canada Data.
+1. Available for unrestricted use that meets current ClimateData/CCCS data distribution policies.  Data must be available for commercial use where commercial fees relate specifically to added value (e.g. reformatting/reorganizing/aggregation, advanced interpretation, integration into risk assessments, etc.) and not to data resale.  Licensing that meets this data standard requirement includes (but is not limited to) the [Creative Commons Attribution 4.0 International Public] License(https://creativecommons.org/licenses/by/4.0/legalcode), and for data produced by ECCC, the [License Agreement for Use of Environment and Climate Change Canada Data](https://climate.weather.gc.ca/prods_servs/attachment1_e.html).
 
 ### Provenance and Reproducibility
 The data must be
-1. Versioned using a consistent tracking protocol (e.g. [Semantic Versioning (semver)](semver.org) that identifies major/minor data revisions, for data versions hosted both at CCCS and elsewhere.  Enumerated data versions must be associated with at a minimum the following:
+1. Versioned using a consistent tracking protocol (e.g. [Semantic Versioning (semver)](semver.org) that identifies major/minor data revisions, for data versions hosted both at CCCS and elsewhere.  Enumerated data versions must be associated with at a minimum the following [World Meteorological Organization WMO-suggested items](https://library.wmo.int/doc_num.php?explnum_id=7867):
    1. The time at which the data was produced;
    1. Who (at the individual and organizational level) produced and is responsible for the data;
    1. What sources (e.g. models, observational instruments, etc.) the data was derived from;
@@ -55,7 +55,7 @@ The data must be
 ### Data Coverage and Resolution 
 The data must:
 1. Cover the entire Canadian landmass or significant regions thereof, and/or coastal and offshore regions if required for maritime-specific user needs;
-1. Represent information at a spatial resolution that is directly applicable to identified user needs and ideally be of the same resolution as existing climatedata.ca products;
+1. For gridded information: be at a spatial resolution that is directly applicable to identified user needs and, if feasible, be at the same resolution as existing climatedata.ca products;
 1. Cover at a minimum:
    1. For climate models: the years 1950-2100 at a minimum;
    1. For observationally-sourced data: should cover at least 30 years and cover a period that is applicable to identified user needs;
@@ -65,19 +65,19 @@ The data must:
 The data itself, or supporting datasets or documentation, must allow users to understand sources of uncertainty.  Depending on the data set, sources of uncertainty include:
 1. Observations: for data derived from observations or data that indirectly incorporates observations (e.g. reanalysis data), the effect of uncertainties (e.g. observational bias and error, and measurement and methods uncertainties) should be qualitatively explained and if possible quantified;
 1. Future projections: for data derived from climate model simulations, two sources of uncertainty should be addressed:
-   1. Model uncertainty: 
-      1. a large ensemble of models in agreement with current multi-model efforts;
-      1. an objective model selection process;
+   1. Model uncertainty, via either: 
+      1. a large ensemble of models in agreement with current multi-model project frameworks;
+      1. an [objective model selection process](https://doi.org/10.1175/JCLI-D-14-00636.1);
    1. Scenario uncertainty: for data derived from climate model simulations, data should be provided that is consistent with as many of the following scenarios as possible:
       1. RCP2.6, RCP4.5, and RCP8.5 scenarios, or;
       1. SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5 scenarios;
    1. Data derived using a single model initial-condition large ensemble (SMILE) must have information regarding how this ensemble captures multi-model and multi-scenario ensemble ranges.
 
 ### Metadata and Format  
-The data must:
-1. Conform to [Climate and Forecasting (CF) Conventions](https://cfconventions.org/).  Where data is provided in netCDF format (preferred) , full CF Convention compliance is required.  For other data formats, CF Convention guidelines must be followed to all extents possible (for example, variable and data dimension names should use CF Convention naming standards);
+Data metadata (information describing the data) must:
+1. Conform to [Climate and Forecasting (CF) Conventions](https://cfconventions.org/) or other case-specific metadata standards that provide clear information on what the dataset represents.  Where data is meteorological or climatological and provided in netCDF format (preferred), full CF Convention compliance is required.  For other data formats, general CF Convention guidelines should be followed to all extents possible (for example, variable and data dimension names should use standard naming formats, even if these are captured via standardized file names).
 1. Be in one of the following file formats:
-   1. netCDF (*preferred*);
+   1. netCDF;
    1. text (CSV);
    1. GeoJSON;
    1. GeoTIFF;
