@@ -1,30 +1,22 @@
 # Canadian Centre for Climate Services Data Standards
-Summary and Objectives
+## Summary and Objectives
 Climate data is increasingly used to by users across Canada for consequential decisions around climate change risk, adaptation and resilience.  The Canadian Centre for Climate Services (CCCS) is a key developer and distributor of this data, and is therefore responsible for developing and maintaining accessible, transparent, trustworthy, and well-documented datasets.  To support this responsibility, this document defines a specific set of agreed-upon minimum, mandatory standards   for all new quantitative data  being developed for inclusion on ClimateData.ca and the CCCS website.  Barring exceptional circumstances, these standards must be met or exceeded for all data being considered for ClimateData.ca or the CCCS website, whether the data is developed by CCCS, federal, regional or provincial partners, academia, the private sector, or multi-stakeholder groups.  It is possible that different standards for a particular dataset could be addressed by a range of groups: for example, CCCS outreach/engagement staff may address user needs standards, academic partners may address scientific integrity standards, and CCCS technical partners may address metadata, provenance and reproducibility standards.  Ultimately, it is not so important who addresses each standard, so much as it is that each standard is ultimately met or exceeded, for each dataset served by ClimateData.ca or the CCCS website.
 These standards – which where possible align with broader national and international data standards initiatives - should be proactively communicated to potential data partners well in advance of final data delivery to review working groups for consideration.  Proactive communication and regular mid-project data standards checks will ensure high quality data products and reduce the risk of potential late-stage data rejection.  Meeting or exceeding these standards will ensure that all new products distributed by the CCCS support the objective “to provide Canadians with information and support to consider climate change in their decisions”.
-Data Standards
-Data standards are provided for the following data standard categories:
-Documentation	1
-Relation to User Needs	2
-Scientific Integrity	2
-Availability and Licensing	3
-Provenance and Reproducibility	3
-Data Coverage and Resolution	3
-Uncertainty Quantification	4
-Metadata and Format	4
-Quality Assurance/Quality Control Review	5
-1	Documentation
+##Data Standards
+
+### Documentation
 The data must be associated with documentation that provides:
-1	A clear, up-to-date, plain language executive summary that describes what the data tangibly represents.
-2	A complete and up-to-date general and technical description that addresses the topic of each section of this data standards document, in detail.
-3	At least one previous formal publication or report describing the methodology/data, or use of the methodology/data in a scientific or applied setting. 
-2	Relation to User Needs
+* A clear, up-to-date, plain language executive summary that describes what the data tangibly represents.
+* A complete and up-to-date general and technical description that addresses the topic of each section of this data standards document, in detail.
+* At least one previous formal publication or report describing the methodology/data, or use of the methodology/data in a scientific or applied setting. 
+
+### Relation to User Needs
 The data must be associated with documentation that describes:
-4	How the data itself, and/or specific delivery of the data on climatedata.ca or the CCCS website, addresses (in whole or in large part) a documented need of one or more Canadian user groups;
-5	Why providing the data on ClimateData.ca or the CCCS website provides  benefits relative to other existing datasets, or via delivery of the same data by other methods;
-6	How the data:
-a.a	Can be demonstrably applied to support user needs, or;
-a.b	Requires further processing (e.g. via additional quantitative analysis or as use as input into an impacts model ).  If further processing is required, a description of the full processing workflow must be provided, along with a demonstration that this workflow is (or could in the near future) be feasible to undertake by all identified user groups. 
+*	How the data itself, and/or specific delivery of the data on climatedata.ca or the CCCS website, addresses (in whole or in large part) a documented need of one or more Canadian user groups;
+*	Why providing the data on ClimateData.ca or the CCCS website provides  benefits relative to other existing datasets, or via delivery of the same data by other methods;
+*	How the data:
+**	Can be demonstrably applied to support user needs, or;
+**	Requires further processing (e.g. via additional quantitative analysis or as use as input into an impacts model ).  If further processing is required, a description of the full processing workflow must be provided, along with a demonstration that this workflow is (or could in the near future) be feasible to undertake by all identified user groups. 
 7	A specific case study/example that demonstrates how users have already used, or would use, the data.
 3	Scientific Integrity
 The data must be associated with documentation that:
