@@ -20,6 +20,7 @@ The data must be associated with documentation that describes:
    1.	Can be demonstrably applied to support user needs, or;
    1.	Requires further processing (e.g. via additional quantitative analysis or as use as input into an impacts model ).  If further processing is required, a description of the full processing workflow must be provided, along with a demonstration that this workflow is (or could in the near future) be feasible to undertake by all identified user groups. 
 1. A specific case study/example that demonstrates how users have already used, or would use, the data.
+
 ### Scientific Integrity
 The data must be associated with documentation that:
 1. Provides scientific justification of methods used to develop the data.  This cannot be a self-referential statement.  It must include at a minimum:
@@ -36,33 +37,37 @@ The data must be associated with documentation that:
       1. Comparison to any similar (‘apples-to-apples’) datasets;
 1. Identifies an expert who is prepared to assist CCCS Support Desk with responses to data/methods queries; 
 1. Identifies one or more reviewers who could review, or already have reviewed, the data for scientific integrity. 
+
 ### Availability and Licensing
 The data must be:
-1. Free ;
+1. Free;
 1. Available for unrestricted use that meets current ClimateData/CCCS data distribution policies.  Data must be available for commercial use where commercial fees relate specifically to added value (e.g. advanced interpretation, integration into risk assessments, etc.) and not to data resale .  Licensing that meets this data standard requirement includes (but is not limited to) the Creative Commons Attribution 4.0 International Public License , and for data produced by ECCC, the License Agreement for Use of Environment and Climate Change Canada Data .
-Provenance and Reproducibility
+
+### Provenance and Reproducibility
 The data must be:
-1. Versioned using a consistent tracking protocol that identifies all major/minor data revisions, for data versions hosted both at CCCS and elsewhere.  Enumerated data versions must be associated with at a minimum the following :
+1. Versioned using a consistent tracking protocol (e.g. [Semantic Versioning (semver)](semver.org) that identifies major/minor data revisions, for data versions hosted both at CCCS and elsewhere.  Enumerated data versions must be associated with at a minimum the following:
    1. The time at which the data was produced;
    1. Who (at the individual and organizational level) produced and is responsible for the data;
    1. What sources (e.g. models, observational instruments, etc.) the data was derived from;
-   1. How/why the data changed relative to previous data versions (if applicable).
+   1. How/why the data changed relative to previous data versions (if applicable);
 1. Reproducible through application of original underlying tools, including codes, scripts, and/or documented workflows.  All tools must be made available to the portal partners upon request and be complete, version controlled and self-documented to the extent that a knowledgeable 3rd party (for example, an expert witness in a court proceeding) would not require additional information to reproduce a particular version of the data. 
+
 ### Data Coverage and Resolution 
 The data must:
-1. Cover the entire Canadian landmass or significant regions thereof, and/or coastal and offshore regions if required for maritime-specific user needs. 
-1. Represent information at a spatial resolution that is directly applicable to identified user needs and ideally be of the same resolution as existing climatedata.ca products.
+1. Cover the entire Canadian landmass or significant regions thereof, and/or coastal and offshore regions if required for maritime-specific user needs;
+1. Represent information at a spatial resolution that is directly applicable to identified user needs and ideally be of the same resolution as existing climatedata.ca products;
 1. Cover at a minimum:
    1. For climate models: the years 1950-2100 at a minimum;
-   1. For observationally-sourced data: should cover at least 30 years and cover a period that is applicable to identified user needs.
+   1. For observationally-sourced data: should cover at least 30 years and cover a period that is applicable to identified user needs;
 1. Represent information at a temporal resolution that is directly applicable to identified user needs.
+
 ### Uncertainty Quantification
 The data itself, or supporting datasets or documentation, must allow users to understand sources of uncertainty.  Depending on the data set, sources of uncertainty include:
-1. Observations: for data derived from observations or data that indirectly incorporates observations (e.g. reanalysis data), the effect of uncertainties (e.g. observational bias and error, and measurement and methods uncertainties) should be qualitatively explained and if possible quantified.
+1. Observations: for data derived from observations or data that indirectly incorporates observations (e.g. reanalysis data), the effect of uncertainties (e.g. observational bias and error, and measurement and methods uncertainties) should be qualitatively explained and if possible quantified;
 1. Future projections: for data derived from climate model simulations, two sources of uncertainty should be addressed:
    1. Model uncertainty: 
       1. a large ensemble of models in agreement with current multi-model efforts;
-      1. an objective model selection process.
+      1. an objective model selection process;
    1. Scenario uncertainty: for data derived from climate model simulations, data should be provided that is consistent with as many of the following scenarios as possible:
       1. RCP2.6, RCP4.5, and RCP8.5 scenarios, or;
       1. SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5 scenarios;
@@ -70,16 +75,16 @@ The data itself, or supporting datasets or documentation, must allow users to un
 
 ### Metadata and Format  
 The data must:
-1. Conform to Climate and Forecasting (CF) Conventions.  Where data is provided in netCDF format (preferred) , full CF Convention compliance is required.  For other data formats, CF Convention guidelines must be followed to all extents possible (for example, variable and data dimension names should use CF Convention naming standards).
+1. Conform to [Climate and Forecasting (CF) Conventions](https://cfconventions.org/).  Where data is provided in netCDF format (preferred) , full CF Convention compliance is required.  For other data formats, CF Convention guidelines must be followed to all extents possible (for example, variable and data dimension names should use CF Convention naming standards);
 1. Be in one of the following file formats:
-   1. netCDF (*preferred*)
-   1. text (CSV) 
-   1. GeoJSON
-   1. GeoTIFF
-   1. Shapefile
-1. Be associated with an accurate description of number of files and total dataset volume. 
+   1. netCDF (*preferred*);
+   1. text (CSV);
+   1. GeoJSON;
+   1. GeoTIFF;
+   1. Shapefile;
+1. Be associated with an accurate description of number of files and total dataset size (e.g. megabytes, gigabytes). 
 
 ### Quality Assurance/Quality Control Review
 The data must be associated with certifying documentation:
-1. Confirming that a quality assurance review has assessed that no errors exist in the data creation methodology.
+1. Confirming that a quality assurance review has assessed that no errors exist in the data creation methodology;
 1. Confirming that a quality control review has assessed that no data errors and metadata errors exist.
