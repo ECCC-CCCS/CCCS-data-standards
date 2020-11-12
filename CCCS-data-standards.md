@@ -12,23 +12,23 @@ The data must be associated with documentation that provides:
 
 ### Relation to User Needs
 The data must be associated with documentation that describes:
-1.	How the data itself, and/or specific delivery of the data on climatedata.ca or the CCCS website, addresses (in whole or in large part) a documented need of one or more Canadian user groups;
-1.	Why providing the data on ClimateData.ca or the CCCS website provides  benefits relative to other existing datasets, or via delivery of the same data by other methods;
-1.	How the data:
+1. How the data itself, and/or specific delivery of the data on climatedata.ca or the CCCS website, addresses (in whole or in large part) a documented need of one or more Canadian user groups;
+1. Why providing the data on ClimateData.ca or the CCCS website provides  benefits relative to other existing datasets, or via delivery of the same data by other methods;
+1. How the data:
    *	Can be demonstrably applied to support user needs, or;
    *	Requires further processing (e.g. via additional quantitative analysis or as use as input into an impacts model ).  If further processing is required, a description of the full processing workflow must be provided, along with a demonstration that this workflow is (or could in the near future) be feasible to undertake by all identified user groups. 
-7	A specific case study/example that demonstrates how users have already used, or would use, the data.
-3	Scientific Integrity
+1. A specific case study/example that demonstrates how users have already used, or would use, the data.
+### Scientific Integrity
 The data must be associated with documentation that:
-8	Provides scientific justification of methods used to develop the data.  This cannot be a self-referential statement.  It must include at a minimum:
-a.a	A comparison of the methods against other contemporary/similar methods and approaches
-a.b	An assessment of the methods against fundamental scientific theory and understanding;
-a.c	An objective critique of the strengths and weaknesses of the methods;
-a.d	An objective comparison to any/all similar methods/datasets.
-9	Provides quantitative assessment of the resulting data.  This must include at a minimum: 
-a.a	For historical observations:
-a.i	Wherever possible, comparisons to independent observations or models to indicate measures of bias, particularly relative to the maximum bias that would be acceptable to users;
-a.ii	Quantification of key data statistics, including (but not limited to) measures of averages, ranges, outliers, trends, and missing data;
+1. Provides scientific justification of methods used to develop the data.  This cannot be a self-referential statement.  It must include at a minimum:
+   1. A comparison of the methods against other contemporary/similar methods and approaches
+   1. An assessment of the methods against fundamental scientific theory and understanding;
+   1. An objective critique of the strengths and weaknesses of the methods;
+   1. An objective comparison to any/all similar methods/datasets.
+1. Provides quantitative assessment of the resulting data.  This must include at a minimum: 
+   1. For historical observations:
+      1. Wherever possible, comparisons to independent observations or models to indicate measures of bias, particularly relative to the maximum bias that would be acceptable to users;
+      1. Quantification of key data statistics, including (but not limited to) measures of averages, ranges, outliers, trends, and missing data;
 a.b	For future projections:
 b.i	Wherever possible, assessment of future values for realistic trends, ranges, and statistics;
 b.ii	Comparison to any similar (‘apples-to-apples’) datasets;
