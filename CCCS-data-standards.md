@@ -15,8 +15,8 @@ The data must be associated with documentation that describes:
 1.	How the data itself, and/or specific delivery of the data on climatedata.ca or the CCCS website, addresses (in whole or in large part) a documented need of one or more Canadian user groups;
 1.	Why providing the data on ClimateData.ca or the CCCS website provides  benefits relative to other existing datasets, or via delivery of the same data by other methods;
 1.	How the data:
-  1.	Can be demonstrably applied to support user needs, or;
-  1.	Requires further processing (e.g. via additional quantitative analysis or as use as input into an impacts model ).  If further processing is required, a description of the full processing workflow must be provided, along with a demonstration that this workflow is (or could in the near future) be feasible to undertake by all identified user groups. 
+   *	Can be demonstrably applied to support user needs, or;
+   *	Requires further processing (e.g. via additional quantitative analysis or as use as input into an impacts model ).  If further processing is required, a description of the full processing workflow must be provided, along with a demonstration that this workflow is (or could in the near future) be feasible to undertake by all identified user groups. 
 7	A specific case study/example that demonstrates how users have already used, or would use, the data.
 3	Scientific Integrity
 The data must be associated with documentation that:
