@@ -6,9 +6,9 @@ These standards – which where possible align with broader national and interna
 
 ### Documentation
 The data must be associated with documentation that provides:
-* A clear, up-to-date, plain language executive summary that describes what the data tangibly represents.
-* A complete and up-to-date general and technical description that addresses the topic of each section of this data standards document, in detail.
-* At least one previous formal publication or report describing the methodology/data, or use of the methodology/data in a scientific or applied setting. 
+1. A clear, up-to-date, plain language executive summary that describes what the data tangibly represents.
+1. A complete and up-to-date general and technical description that addresses the topic of each section of this data standards document, in detail.
+1. At least one previous formal publication or report describing the methodology/data, or use of the methodology/data in a scientific or applied setting. 
 
 ### Relation to User Needs
 The data must be associated with documentation that describes:
