@@ -1,5 +1,4 @@
 # Canadian Centre for Climate Services Data Standards (*Version 0.0.1*)
-<span style="color:blue">some *blue* text</span>.
 
 ## Summary and Objectives
 Climate data is increasingly used to by users across Canada for consequential decisions around climate change risk, adaptation and resilience.  The [Canadian Centre for Climate Services (CCCS)](https://www.canada.ca/en/environment-climate-change/services/climate-change/canadian-centre-climate-services.html) is a key developer and distributor of this data, and is therefore responsible for developing and maintaining accessible, transparent, trustworthy, and well-documented datasets.  To support this responsibility, this document defines a specific set of agreed-upon standards for all new quantitative data being developed for inclusion on ClimateData.ca and the CCCS website.  Barring exceptional circumstances, these standards must be met or exceeded for all data being considered for [ClimateData.ca](https://climatedata.ca/) or the [CCCS website](https://www.canada.ca/en/environment-climate-change/services/climate-change/canadian-centre-climate-services.html), whether the data is developed by CCCS, federal, regional or provincial partners, academia, the private sector, or multi-stakeholder groups.  It is possible that different standards for a particular dataset could be addressed by a range of groups: for example, CCCS outreach/engagement staff may address user needs standards, academic partners may address scientific integrity standards, and CCCS technical partners may address metadata, provenance and reproducibility standards.  Ultimately, it is not so important who addresses each standard, so much as it is that each standard is ultimately met or exceeded, for each dataset served by ClimateData.ca or the CCCS website.  Proactive communication and regular mid-project data standards checks will ensure high quality data products and reduce the risk of potential late-stage data rejection.  Meeting or exceeding these standards will ensure that all new products distributed by the CCCS support the objective “to provide Canadians with information and support to consider climate change in their decisions”.
@@ -10,7 +9,7 @@ Where possible, the standards presented here align with broader national and int
 
 ### Documentation
 The data must be associated with documentation that provides:
-1. A clear, up-to-date, plain language executive summary that describes what the data tangibly represents.
+1. (*Mandatory*) A clear, up-to-date, plain language executive summary that describes what the data tangibly represents;
 1. A complete and up-to-date general and technical description that addresses the topic of each section of this data standards document, in detail.
 1. At least one previous formal publication or report describing the methodology/data, or use of the methodology/data in a scientific or applied setting. 
 
