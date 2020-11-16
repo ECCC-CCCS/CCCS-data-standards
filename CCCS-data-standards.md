@@ -64,6 +64,8 @@ The data must:
 ### Uncertainty Quantification
 The data itself, or supporting datasets or documentation, must allow users to understand sources of uncertainty.  Depending on the data set, sources of uncertainty include:
 1. Observations: for data derived from observations or data that indirectly incorporates observations (e.g. reanalysis data), the effect of uncertainties (e.g. observational bias and error, and measurement and methods uncertainties) should be qualitatively explained and if possible quantified;
+###-> Travis L: make this more clear
+
 1. Future projections: for data derived from climate model simulations, two sources of uncertainty should be addressed:
    1. Model uncertainty, via either: 
       1. a large ensemble of models in agreement with current multi-model project frameworks;
