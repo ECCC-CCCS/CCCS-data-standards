@@ -62,9 +62,8 @@ The data must:
 1. Represent information at a temporal resolution that is directly applicable to identified user needs.
 
 ### Uncertainty Quantification
-The data itself, or supporting datasets or documentation, must allow users to understand sources of uncertainty.  Depending on the data set, sources of uncertainty include:
-1. Observations: for data derived from observations or data that indirectly incorporates observations (e.g. reanalysis data), the effect of uncertainties (e.g. observational bias and error, and measurement and methods uncertainties) should be qualitatively explained and if possible quantified;
-###-> Travis L: make this more clear
+The data itself, or supporting datasets or documentation, must allow CCCS staff and users to understand sources of uncertainty.  'Uncertainty' can take different forms depending on the data in question.  Depending on the data set, sources of uncertainty that should be evaluated include:
+1. Observations: for data derived from observations or data that indirectly incorporates observations (e.g. reanalysis data), the effect of uncertainties (e.g. observational bias and error, uncertainty in data processing methods) should be qualitatively explained and if possible quantified;
 
 1. Future projections: for data derived from climate model simulations, two sources of uncertainty should be addressed:
    1. Model uncertainty, via either: 
