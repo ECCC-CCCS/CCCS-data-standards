@@ -19,24 +19,23 @@ The data must be associated with documentation that describes:
 1. Why providing the data on ClimateData.ca or the CCCS website provides benefits relative to other existing datasets, or via delivery of the same data by other methods; (*Recommended*)
 1. How the data: (*Mandatory*)
    1.	Can be demonstrably applied to support user needs, or;
-   1.	Requires further processing (e.g. via additional quantitative analysis or as use as input into an impacts model ).  If further processing is required, a description of the full processing workflow must be provided, along with a demonstration that this workflow is (or could in the near future) be feasible to undertake by all identified user groups.  
+   1.	Requires further processing (e.g. via additional quantitative analysis or as use as input into an impacts model ).  If further processing is required, a description of the full processing workflow must be provided, along with a demonstration that this workflow is (or could in the near future) be feasible to undertake by all identified user groups.    1. should not be applied (e.g. potential user needs for which the data was not intended) 
 1. A specific case study/example that demonstrates how users have already used, or would use, the data. (*Recommended*)
 
 ### Scientific Integrity
 The data must be associated with documentation that:
 1. Provides scientific justification of methods used to develop the data.  It must include at a minimum: (*Mandatory*)
-   1. A comparison of the methods against other contemporary/similar methods and approaches
+   1. A qualitative review of the methods compared to other contemporary/similar methods and approaches
    1. An assessment of the methods against fundamental scientific theory and understanding;
-   1. An objective critique of the strengths and weaknesses of the methods;
-   1. An objective comparison to any/all similar methods/datasets. 
+   1. An objective critique of methods strengths and weaknesses; 
 1. Provides quantitative assessment of the resulting data.  This must include:  (*Mandatory*)
-   1. For historical observations:
-      1. Wherever possible, comparisons to independent observations or models to indicate measures of bias, particularly relative to the maximum bias that would be acceptable to users;
+   1. For data based on historical observations:
+      1. Wherever possible and feasible, comparisons to independent observations or models to indicate measures of bias, particularly relative to the maximum bias that would be acceptable to users;
       1. Quantification of key data statistics, including (but not limited to) measures of averages, ranges, outliers, trends, and missing data;
    1. For future projections:  (*Mandatory*)
       1. Wherever possible, assessment of future values for realistic trends, ranges, and statistics;
       1. Comparison to any similar (‘apples-to-apples’) datasets;
-1. Identifies an expert who is able to assist CCCS Support Desk with responses to data/methods queries, and/or train CCCS staff to a level that allows CCCS to confidently respond to these queries;  
+1. Describes an agreement for data developers to provide as-needed support and/or training for CCCS Support Desk staff in responding to data/methods queries;
 1. Identifies one or more reviewers who could review, or already have reviewed, the data for scientific integrity. (*Recommended*)
 
 ### Availability and Licensing
@@ -66,25 +65,28 @@ The data must:
 The data itself, or supporting datasets or documentation, must allow CCCS staff and users to understand sources of uncertainty.  'Uncertainty' can take different forms depending on the data in question.  Depending on the data set, sources of uncertainty that should be evaluated could include:
 1. Observations: for data derived from observations or data that indirectly incorporates observations (e.g. reanalysis data), the effect of uncertainties (e.g. observational bias and error, uncertainty in data processing methods) should be qualitatively explained and if possible quantified; (*Mandatory*)
 
-1. Future projections: for data derived from climate model simulations, two sources of uncertainty should be addressed: (*Mandatory*)
+1. Future projections: for data derived from climate model simulations, three sources of uncertainty should be addressed: (*Mandatory*)
    1. Model uncertainty, via either: 
       1. a large ensemble of models in agreement with current multi-model project frameworks;
       1. an [objective model selection process](https://doi.org/10.1175/JCLI-D-14-00636.1);
    1. Scenario uncertainty: for data derived from climate model simulations, data should be provided that is consistent with as many of the following scenarios as possible:
       1. RCP2.6, RCP4.5, and RCP8.5 scenarios, or;
       1. SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5 scenarios;
-   1. Data derived using a single model initial-condition large ensemble (SMILE) must have information regarding how this ensemble captures multi-model and multi-scenario ensemble ranges.
+   1. Internal variability uncertainty, via ensemble simulations or other equivalent approaches.
 
-### Metadata and Format  
-Data metadata (information describing the data) must: (*Recommended*)
-1. Conform to [Climate and Forecasting (CF) Conventions](https://cfconventions.org/) or other case-specific metadata standards that provide clear information on what the dataset represents.  Where data is meteorological or climatological and provided in netCDF format (preferred), full CF Convention compliance is required.  For other data formats, general CF Convention guidelines should be followed to all extents possible (for example, variable and data dimension names should use standard naming formats, even if these are captured via standardized file names).
-1. Be in one of the following file formats:
+### Metadata  
+Data metadata (information describing the data) must: (*Mandatory*)
+1. Conform to [Climate and Forecasting (CF) Conventions](https://cfconventions.org/) or other case-specific metadata standards that provide clear information on what the dataset represents.  Where data is meteorological or climatological and provided in netCDF format (preferred), CF Convention compliance is recommended as a minimum standard.  For other data formats, general CF Convention metadata guidelines should be followed to all extents possible (for example, variable and data dimension names should use standard naming formats, even if these are captured via standardized file naming conventions);
+1. To all extents possible, leverage metadata capabilities of files formats to integrate metadata in the data files themselves;
+1. Be associated with an accurate description of number of files and total dataset size (e.g. megabytes, gigabytes). (*Mandatory*).
+
+### File Format
+1. Be in one of the following file formats: (*Recommended*)
    1. netCDF;
    1. text (CSV);
    1. GeoJSON;
    1. GeoTIFF;
    1. Shapefile;
-1. Be associated with an accurate description of number of files and total dataset size (e.g. megabytes, gigabytes). (*Mandatory*)
 
 ### Quality Assurance/Quality Control Review
 The data must be associated with certifying documentation:
