@@ -2,7 +2,8 @@
   <img src="logo-climate-data-ca-1-smaller.png" alt="logo" style="width:10%">
 </figure>
 
-# Canadian Centre for Climate Services Data Standards (*Version 0.0.1*)
+# Canadian Centre for Climate Services Data Standards
+# Version 0.0.1
 
 ## Summary and Objectives
 Climate data is increasingly used to by users across Canada for consequential decisions around climate change risk, adaptation and resilience.  The [Canadian Centre for Climate Services (CCCS)](https://www.canada.ca/en/environment-climate-change/services/climate-change/canadian-centre-climate-services.html) is a key developer and distributor of this information, and is therefore responsible for developing and maintaining accessible, transparent, trustworthy, and well-documented datasets.  To support this responsibility, this document defines a specific set of standards for all new quantitative data being developed for inclusion on ClimateData.ca and the CCCS website.  Barring exceptional circumstances, these standards must be met or exceeded for all data being considered for [ClimateData.ca](https://climatedata.ca/) or the [CCCS website](https://www.canada.ca/en/environment-climate-change/services/climate-change/canadian-centre-climate-services.html), whether the data is developed by CCCS, federal, regional or provincial partners, academia, the private sector, or multi-stakeholder groups.  Proactive communication and regular mid-project data standards checks will ensure high quality data products and reduce the risk of potential late-stage data rejection.  Meeting or exceeding these standards will ensure that all new products distributed by the CCCS support the objective “to provide Canadians with information and support to consider climate change in their decisions”.
