@@ -85,6 +85,49 @@ Data metadata (information describing the data) must: (*Mandatory*)
 1. To all extents possible, leverage metadata capabilities of files formats to integrate metadata in the data files themselves;
 1. Be associated with an accurate description of number of files and total dataset size (e.g. megabytes, gigabytes). (*Mandatory*).
 
+Metadata must be specified in the following ways for each accepted file format: 
+(*Mandatory?*) 
+
+1. NetCDF: as specified in the relevant metadata standards (e.g., CF Conventions).
+
+1. text (CSV):
+   1. Specified in a separate file from the data.
+   1. The metadata file/sheet must have two columns. Each row specifies a
+      single metadata attribute.
+      1. Column 1 gives the name of a metadata attribute.
+      1. Column 2 gives the value of a metadta attribute.
+   1. Metadata attribute names shall follow the relevant metadata standards
+      (e.g., CF Conventions).
+
+1. GeoJSON:
+   1. Use [JSON-LD](https://json-ld.org/) properties at the 
+      top level of the GeoJSON object to specify metadata. 
+      Specifically, use the `@context` LD property.
+      -  (This is the most sensible suggestion I have found online;
+      I also think it sensible *not* to use the GeoJSON `properties` properties
+      to specify metadata; they in fact are part of the data payload.
+      [Reference](https://gis.stackexchange.com/questions/96158/metadata-and-geojson).)
+   1. The `@context` property is an object containing further properties.
+      Each property within the  `@context` object specifies a single metadata
+      attribute.
+      1. The key gives the name of a metadata attribute.
+      1. The value gives the value of a metadata attribute.
+   1. Metadata attribute names shall follow the relevant metadata standards
+      (e.g., CF Conventions).
+
+1. GeoTIFF:
+   - Not sure. There is metadata in TIFF files, and GeoTIFF is such metadata
+     but it's not clear if we can extend this to include "our" metadata. 
+   - This [description ](http://geotiff.maptools.org/listgeo.html) may prove
+     helpful.
+
+1. Shapefile:
+   - ??? Store in the `.dbf` attributes database? Since `.dbf` specifies
+     per-shape attributes, which is not quite what is wanted.
+     Alternatively, we could specify a new file, say with extension
+     `.mtd`
+   - See https://gis.stackexchange.com/questions/77707/how-to-provide-meanings-metadata-of-attributes-fields-with-shapefiles
+
 ### File Format
 1. Be in one of the following file formats: (*Recommended*)
    1. netCDF;
