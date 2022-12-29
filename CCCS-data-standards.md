@@ -3,7 +3,7 @@
 </figure>
 
 # Canadian Centre for Climate Services Data Standards
-# Version 0.0.1
+# Version 0.0.2
 
 ## Summary and Objectives
 Climate data is increasingly used by users across Canada for consequential decisions around climate change risk, adaptation and resilience.  The [Canadian Centre for Climate Services (CCCS)](https://www.canada.ca/en/environment-climate-change/services/climate-change/canadian-centre-climate-services.html) is a key developer and distributor of this information, and it aims to develop and maintain accessible, transparent, trustworthy, and well-documented datasets.  To support this goal, this document defines a specific set of standards for all new quantitative data being developed for inclusion on ClimateData.ca and/or the CCCS website.  Barring exceptional circumstances, these standards must be met or exceeded for all data being considered for [ClimateData.ca](https://climatedata.ca/) or the [CCCS website](https://www.canada.ca/en/environment-climate-change/services/climate-change/canadian-centre-climate-services.html), whether the data is developed by CCCS, federal, regional or provincial partners, academia, the private sector, or multi-stakeholder groups.  Proactive communication and regular mid-project data standards checks will ensure high quality data products and reduce the risk of potential late-stage data rejection.  Meeting or exceeding these standards will ensure that all new products distributed by the CCCS support the objective “to provide Canadians with information and support to consider climate change in their decisions”.
@@ -16,11 +16,12 @@ Where possible, the standards presented here align with broader national and int
 The data must be associated with documentation that provides:
 1. A clear, up-to-date, plain language executive summary that describes what the data tangibly represents; (*Mandatory*)
 2. A complete and up-to-date general and technical description that addresses the topic of each section of this data standards document; (*Mandatory*)
-3. At least one previous formal publication or report describing the methodology/data, or use of the methodology/data in a scientific or applied setting. (*Mandatory*) 
+3. At least one previous formal publication or report describing the methodology/data, or use of the methodology/data in a scientific or applied setting. (*Mandatory*)
+4. At least one plain language guidance document outlining key background, considerations and processes (see Relation to User Needs - item 3) relevant to this data. (*Mandatory*)  
 
 ### Relation to User Needs
 The data must be associated with documentation that describes:
-1. How the data itself, and/or specific delivery of the data on climatedata.ca or the CCCS website, addresses (in whole or in large part) a documented need of one or more Canadian user groups; (*Mandatory*)
+1. How the data itself, and/or specific delivery of the data on ClimateData.ca or the CCCS website, addresses (in whole or in large part) a documented need of one or more Canadian user groups; (*Mandatory*)
 2. Why providing the data on ClimateData.ca or the CCCS website provides benefits relative to other existing datasets, or via delivery of the same data by other methods; (*Recommended*)
 3. How the data: (*Mandatory*)
    1.	Can be demonstrably applied to support user needs, or;
@@ -48,6 +49,7 @@ The data must be associated with documentation (or references to previous docume
 The data must be:
 1. Free of cost; (*Mandatory*)
 2. Available for unrestricted use that meets [ClimateData/CCCS data distribution policies and licenses](https://climatedata.ca/legal/).  Data must be available for commercial use where commercial fees relate specifically to added value (e.g. reformatting/reorganizing/aggregation, advanced interpretation, integration into risk assessments, etc.) and not to data resale.  Licensing that meets this data standard requirement includes (but is not limited to) the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode), and for data produced by ECCC, the [License Agreement for Use of Environment and Climate Change Canada Data](https://climate.weather.gc.ca/prods_servs/attachment1_e.html) and the [Open Government License - Canada](https://open.canada.ca/en/open-government-licence-canada). (*Mandatory*)
+3. Findable
 
 ### Provenance and Reproducibility
 The data must be:
@@ -61,11 +63,11 @@ The data must be:
 ### Data Coverage and Resolution 
 The data must:
 1. Cover the entire Canadian landmass or significant regions thereof, and/or coastal and offshore regions if required for maritime-specific user needs; (*Mandatory*)
-2. For gridded information: be at a spatial resolution that is directly applicable to identified user needs and, if feasible, be at the same resolution as existing climatedata.ca products; (*Mandatory*)
-3. Cover at a minimum: (*Mandatory*)
+2. For gridded information: be at a spatial resolution that is directly applicable to identified user needs and, if feasible, be at the same resolution as existing ClimateData.ca products; (*Mandatory*)
+4. Cover at a minimum: (*Mandatory*)
    1. For climate models: the years 1950-2100 at a minimum;
    2. For observationally-sourced data: should cover at least 30 years and cover a period that is applicable to identified user needs;
-4. Represent information at a temporal resolution that is directly applicable to identified user needs. (*Mandatory*)
+5. Represent information at a temporal resolution that is directly applicable to identified user needs. (*Mandatory*)
 
 ### Uncertainty Quantification
 The data itself, or supporting datasets or documentation, must allow CCCS staff and users to understand sources of uncertainty.  'Uncertainty' can take different forms depending on the data in question.  Depending on the data set, sources of uncertainty that should be adressed could include:
@@ -83,7 +85,10 @@ The data itself, or supporting datasets or documentation, must allow CCCS staff 
 Data metadata (information describing the data) must: 
 1. Conform to [Climate and Forecasting (CF) Conventions](https://cfconventions.org/) or other case-specific metadata standards that provide clear information on what the dataset represents.  Where data is meteorological or climatological and provided in netCDF format (preferred), CF Convention compliance is recommended as a minimum standard.  For other data formats, general CF Convention metadata guidelines should be followed to all extents possible (for example, variable and data dimension names should use standard naming formats, even if these are captured via standardized file naming conventions);(*Mandatory*)
 2. To all extents possible, leverage metadata capabilities of files formats to integrate metadata in the data files themselves;(*Recommended*)
-3. Be associated with an accurate description of number of files and total dataset size (e.g. megabytes, gigabytes). (*Mandatory*).
+3. Be associated with an accurate description of number of files and total dataset size (e.g. megabytes, gigabytes); (*Mandatory*)
+4. Include information pertaining to: (*Mandatory*)
+   1. licensing;
+   2. provenance
 
 ### File Format
 1. Be in one of the following file formats: (*Recommended*)
