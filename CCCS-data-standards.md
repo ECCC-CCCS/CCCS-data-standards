@@ -96,4 +96,4 @@ Data metadata (information describing the data) must:
 ### Quality Assurance/Quality Control Review
 The data must be associated with certifying documentation:
 1. Confirming that a quality assurance review has assessed that no errors are known to exist in the data creation methodology; (*Mandatory*)
-2. Confirming that a quality control review has assessed that no errors are known to exist in the final data and metadata. (*Mandatory*)
+2. Confirming that a quality control review has assessed that no errors are known to exist in the final data and metadata. (*Mandatory*) 
