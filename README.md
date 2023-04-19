@@ -72,12 +72,12 @@ The data itself, or supporting datasets or documentation, should allow CCCS staf
 1. Observations: for data derived from observations or data that indirectly incorporates observations (e.g. reanalysis data), the effect of uncertainties (e.g. observational bias and error, uncertainty in data processing methods) should be qualitatively explained and if possible quantified;
 2. Future projections: for data derived from climate model simulations, three sources of uncertainty should be addressed:
    1. Model uncertainty, via either: 
-      1. a large ensemble of models in agreement with current multi-model project frameworks;
+      1. use of data from a large ensemble of models in agreement with current multi-model project frameworks;
       1. an [objective model selection process](https://doi.org/10.1175/JCLI-D-14-00636.1);
    2. Scenario uncertainty: for data derived from climate model simulations, scenario-distinct data should be provided that is consistent with as many of the following scenarios as possible:
       1. RCP2.6, RCP4.5, and RCP8.5 scenarios, or;
       1. SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5 scenarios;
-   3. Internal variability uncertainty, via ensemble simulations or other equivalent approaches.
+   3. Internal variability uncertainty, via application of single-model ensemble/large-ensemble approaches
 
 ### Metadata  
 Data metadata (information describing the data) should: 
