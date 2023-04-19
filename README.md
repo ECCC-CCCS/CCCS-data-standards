@@ -86,7 +86,7 @@ Data metadata (information describing the data) should:
 3. Be associated with an accurate description of number of files and total dataset size (e.g. megabytes, gigabytes).
 
 ### File Format
-1. File formatting should in one of the following file formats, or another common file format:
+1. File formatting should be in one of the following file formats, or another common file format:
    1. netCDF;
    2. text (CSV);
    3. GeoJSON;
